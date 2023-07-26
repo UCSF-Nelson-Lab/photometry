@@ -1,4 +1,6 @@
 function oSig = pbFit(iSig)
+% Original file from Anatol Kreitzer Lab (2020) 
+% modified by Rodrigo Paz (2023)
 % Photobleach fit. This applies a double exponential to segments of the
 % signal. 
 
