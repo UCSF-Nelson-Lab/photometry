@@ -1,4 +1,6 @@
 function photoSig = isosbestic_correction(photoSig,isoSig)
+% Original file from Anatol Kreitzer Lab (2020) 
+% modified by Rodrigo Paz (2023)
 % performs isosbestic correction and returns photoSig with dF/F
 % Takes input from demodulated signal (spect_filter.m)
 
