@@ -3,8 +3,7 @@ function photoSig = isosbestic_correction(photoSig,isoSig)
 % Takes input from demodulated signal (spect_filter.m)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% REMOVE OUTLIERS TO GET BEST FIT: (SO I DON'T FIT SHIT THAT HAPPENS WHEN
-% TDT IS TURNED ON/OFF:
+% REMOVE OUTLIERS TO GET BEST FIT:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 z_sig = zscore(photoSig);
 z_iso = zscore(isoSig);
