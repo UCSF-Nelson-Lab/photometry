@@ -1,6 +1,7 @@
 function [spectTimes,photoSig,isoSig] = spect_filter(data)
 % Spectral filtering of raw modulated photometry signal (zeroLag)
-% modified 230726 (Rodrigo)
+% Original file from Anatol Kreitzer Lab (2020) 
+% modified by Rodrigo Paz (2023)
 
 
 rx = data.streams.Fi1r.data(3,:);%1:100000); % take first 100k points
